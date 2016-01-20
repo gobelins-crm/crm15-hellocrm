@@ -7,6 +7,7 @@ import android.util.Log;
 
 public class SecondActivity extends AppCompatActivity {
 
+    public static final String TEXT_VALUE = "TextValue";
     private static final String TAG = "SecondActivity";
 
     @Override
@@ -14,7 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Intent intent = getIntent();
-        String textValue = intent.getStringExtra("TextValue");
+        String textValue = intent.getStringExtra(TEXT_VALUE);
 
         Log.d(TAG, textValue);
 
