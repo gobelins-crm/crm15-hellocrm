@@ -28,7 +28,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void buttonClicked(View view) {
-        Log.d(TAG, "button clicked");
-    }
 }
